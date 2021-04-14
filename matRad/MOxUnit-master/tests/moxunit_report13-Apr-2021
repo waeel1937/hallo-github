@@ -1,0 +1,175 @@
+Elapsed time is 0.018300 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+13-Apr-2021 10:05:10
+Elapsed time is 0.011513 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+13-Apr-2021 10:05:54
+Elapsed time is 0.017900 seconds.
+suite: 113 tests
+........................{Operation terminated by user during assertWarning>verify_inputs (line 180)
+
+
+In assertWarning (line 59)
+    verify_inputs(func, expected_id, message);
+
+In test_assert_warning>test_assert_warning_passes (line 17)
+    assertWarning(@()warning('moxunit:warning','msg'),...
+
+In MOxUnitFunctionHandleTestCase/run (line 30)
+                obj.function_handle();
+
+In MOxUnitTestSuite/run (line 53)
+        result=run(test_case, result);
+
+In MOxUnitTestSuite/run (line 53)
+        result=run(test_case, result);
+
+In moxunit_runtests>@()run(suite,test_report,params.partition_index,params.partition_count) (line 149)
+    f_handle=@()run(suite, test_report,...
+
+In moxunit_runtests>run_all_tests (line 207)
+        test_report=f_handle();
+
+In moxunit_runtests (line 102)
+    test_report=run_all_tests(suite, test_report, params);
+} 
+{Operation terminated by user during assertWarning>verify_inputs (line 180)
+
+
+In assertWarning (line 59)
+    verify_inputs(func, expected_id, message);
+
+In test_assert_warning>test_assert_warning_passes (line 17)
+    assertWarning(@()warning('moxunit:warning','msg'),...
+
+In MOxUnitFunctionHandleTestCase/run (line 30)
+                obj.function_handle();
+
+In MOxUnitTestSuite/run (line 53)
+        result=run(test_case, result);
+
+In MOxUnitTestSuite/run (line 53)
+        result=run(test_case, result);
+
+In moxunit_runtests>@()run(suite,test_report,params.partition_index,params.partition_count) (line 149)
+    f_handle=@()run(suite, test_report,...
+
+In moxunit_runtests>run_all_tests (line 207)
+        test_report=f_handle();
+
+In moxunit_runtests (line 102)
+    test_report=run_all_tests(suite, test_report, params);
+} 
+Elapsed time is 0.012344 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+13-Apr-2021 20:10:17
+Elapsed time is 0.009909 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+13-Apr-2021 20:10:58
+Elapsed time is 0.011023 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+13-Apr-2021 20:11:45
+Elapsed time is 0.010085 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+13-Apr-2021 20:12:52
+Elapsed time is 0.009794 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+13-Apr-2021 20:13:31

@@ -1,0 +1,193 @@
+Elapsed time is 0.011995 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+................[Warning: File not found or permission denied] 
+[> In test_moxunit_util_mfile_subfunctions>@()delete(tmp_fn) (line 155)
+In onCleanup/delete (line 80)
+In test_moxunit_util_mfile_subfunctions>helper_test_with_lines (line 148)
+In test_moxunit_util_mfile_subfunctions>test_different_args_subfunction (line 119)
+In MOxUnitFunctionHandleTestCase/run (line 30)
+In MOxUnitTestSuite/run (line 53)
+In MOxUnitTestSuite/run (line 53)
+In moxunit_runtests>@()run(suite,test_report,params.partition_index,params.partition_count) (line 149)
+In moxunit_runtests>run_all_tests (line 207)
+In moxunit_runtests (line 102)] 
+{Operation terminated by user during moxunit_util_mfile_subfunctions>read_file (line 93)
+
+
+In moxunit_util_mfile_subfunctions (line 28)
+    raw_text=read_file(fn);
+
+In test_moxunit_util_mfile_subfunctions>helper_test_with_lines (line 167)
+        fs=moxunit_util_mfile_subfunctions(tmp_fn);
+
+In test_moxunit_util_mfile_subfunctions>test_different_args_subfunction (line 119)
+                helper_test_with_lines({func_name},max(n_out,0),{line});
+
+In MOxUnitFunctionHandleTestCase/run (line 30)
+                obj.function_handle();
+
+In MOxUnitTestSuite/run (line 53)
+        result=run(test_case, result);
+
+In MOxUnitTestSuite/run (line 53)
+        result=run(test_case, result);
+
+In moxunit_runtests>@()run(suite,test_report,params.partition_index,params.partition_count) (line 149)
+    f_handle=@()run(suite, test_report,...
+
+In moxunit_runtests>run_all_tests (line 207)
+        test_report=f_handle();
+
+In moxunit_runtests (line 102)
+    test_report=run_all_tests(suite, test_report, params);
+} 
+{Operation terminated by user during moxunit_util_mfile_subfunctions>read_file (line 93)
+
+
+In moxunit_util_mfile_subfunctions (line 28)
+    raw_text=read_file(fn);
+
+In test_moxunit_util_mfile_subfunctions>helper_test_with_lines (line 167)
+        fs=moxunit_util_mfile_subfunctions(tmp_fn);
+
+In test_moxunit_util_mfile_subfunctions>test_different_args_subfunction (line 119)
+                helper_test_with_lines({func_name},max(n_out,0),{line});
+
+In MOxUnitFunctionHandleTestCase/run (line 30)
+                obj.function_handle();
+
+In MOxUnitTestSuite/run (line 53)
+        result=run(test_case, result);
+
+In MOxUnitTestSuite/run (line 53)
+        result=run(test_case, result);
+
+In moxunit_runtests>@()run(suite,test_report,params.partition_index,params.partition_count) (line 149)
+    f_handle=@()run(suite, test_report,...
+
+In moxunit_runtests>run_all_tests (line 207)
+        test_report=f_handle();
+
+In moxunit_runtests (line 102)
+    test_report=run_all_tests(suite, test_report, params);
+} 
+Elapsed time is 0.010194 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+12-Apr-2021 23:10:00
+Elapsed time is 0.012255 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+...............{Operation terminated by user during test_moxunit_runtests>mkdir_recursively (line 229)
+
+
+In test_moxunit_runtests>test_moxunit_runtests_basics (line 41)
+            mkdir_recursively(dir_with_tests);
+
+In MOxUnitFunctionHandleTestCase/run (line 30)
+                obj.function_handle();
+
+In MOxUnitTestSuite/run (line 53)
+        result=run(test_case, result);
+
+In MOxUnitTestSuite/run (line 53)
+        result=run(test_case, result);
+
+In moxunit_runtests>@()run(suite,test_report,params.partition_index,params.partition_count) (line 149)
+    f_handle=@()run(suite, test_report,...
+
+In moxunit_runtests>run_all_tests (line 207)
+        test_report=f_handle();
+
+In moxunit_runtests (line 102)
+    test_report=run_all_tests(suite, test_report, params);
+} 
+{Operation terminated by user during test_moxunit_runtests>mkdir_recursively (line 229)
+
+
+In test_moxunit_runtests>test_moxunit_runtests_basics (line 41)
+            mkdir_recursively(dir_with_tests);
+
+In MOxUnitFunctionHandleTestCase/run (line 30)
+                obj.function_handle();
+
+In MOxUnitTestSuite/run (line 53)
+        result=run(test_case, result);
+
+In MOxUnitTestSuite/run (line 53)
+        result=run(test_case, result);
+
+In moxunit_runtests>@()run(suite,test_report,params.partition_index,params.partition_count) (line 149)
+    f_handle=@()run(suite, test_report,...
+
+In moxunit_runtests>run_all_tests (line 207)
+        test_report=f_handle();
+
+In moxunit_runtests (line 102)
+    test_report=run_all_tests(suite, test_report, params);
+} 
+Elapsed time is 0.010974 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+12-Apr-2021 23:11:27
+Elapsed time is 0.011490 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+12-Apr-2021 23:12:05

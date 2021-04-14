@@ -1,0 +1,382 @@
+Elapsed time is 0.009777 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+03-Apr-2021 00:30:16
+Elapsed time is 0.010937 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+03-Apr-2021 00:30:49
+Elapsed time is 0.010543 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+03-Apr-2021 00:33:00
+Elapsed time is 0.009745 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+03-Apr-2021 00:33:33
+Elapsed time is 0.010615 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+03-Apr-2021 00:37:29
+Elapsed time is 0.009870 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+03-Apr-2021 00:38:02
+Elapsed time is 0.009197 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+03-Apr-2021 00:52:08
+Elapsed time is 0.009535 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+03-Apr-2021 00:53:25
+Elapsed time is 0.011386 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+03-Apr-2021 00:54:37
+Elapsed time is 0.009590 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+03-Apr-2021 00:55:25
+Elapsed time is 0.009401 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+............{Operation terminated by user during matlab.unittest.internal.createConditionallyKeptFolderEnvironment (line 7)
+
+
+In matlab.unittest.internal.TestRunStrategy/createArtifactsStorageFolder (line 38)
+            cleanupObj = createConditionallyKeptFolderEnvironment(artifactsFolder);
+
+In matlab.unittest.TestRunner/runTestSuite (line 966)
+            env = runner.TestRunStrategy.createArtifactsStorageFolder(runner.DiagnosticData.ArtifactsStorageFolder); %#ok<NASGU>
+
+In matlab.unittest.TestRunner/invokeTestContentOperatorMethod_ (line 946)
+            [varargout{1:nargout}] = method(runner, pluginData);
+
+In matlab.unittest.plugins.TestRunnerPlugin/runTestSuite (line 265)
+            iter.CurrentOperator.invokeTestContentOperatorMethod_(@runTestSuite, pluginData, iter);
+
+In matlab.unittest.plugins.DiagnosticsRecordingPlugin/runTestSuite (line 201)
+            plugin.runTestSuite@matlab.unittest.plugins.TestRunnerPlugin(pluginData);
+
+In matlab.unittest.plugins.TestRunnerPlugin/invokeTestContentOperatorMethod_ (line 760)
+                [varargout{1:nargout}] = method(plugin, pluginData);
+
+In matlab.unittest.TestRunner/evaluateMethodOnPlugins (line 437)
+            [varargout{1:nargout}] = iter.CurrentOperator.invokeTestContentOperatorMethod_(method, pluginData, iter);
+
+In matlab.unittest.TestRunner/evaluateMethodOnPluginsFromMethodName (line 425)
+            runner.evaluateMethodOnPlugins(str2func(method),pluginData);
+
+In matlab.unittest.internal.SerialTestRunStrategy/runTestSuite (line 30)
+            runner.evaluateMethodOnPluginsFromMethodName('runTestSuite', pluginData);
+
+In matlab.unittest.internal.SerialTestRunStrategy/runSession (line 15)
+            strategy.runTestSuite(runner,testSuiteRunPluginData);
+
+In matlab.unittest.TestRunner/runSession (line 958)
+            runner.TestRunStrategy.runSession(runner,pluginData);
+
+In matlab.unittest.TestRunner/invokeTestContentOperatorMethod_ (line 946)
+            [varargout{1:nargout}] = method(runner, pluginData);
+
+In matlab.unittest.TestRunner/evaluateMethodOnPlugins (line 437)
+            [varargout{1:nargout}] = iter.CurrentOperator.invokeTestContentOperatorMethod_(method, pluginData, iter);
+
+In matlab.unittest.TestRunner/evaluateMethodOnPluginsFromMethodName (line 425)
+            runner.evaluateMethodOnPlugins(str2func(method),pluginData);
+
+In matlab.unittest.TestRunner/doRunWithFcn (line 408)
+            runner.evaluateMethodOnPluginsFromMethodName(runFcn,pluginData);
+
+In matlab.unittest.TestRunner/run (line 296)
+            result = doRunWithFcn(runner,'runSession', pluginData);
+
+In MOxUnitMatlabUnitWrapperTestCase/run (line 23)
+        result=runner.run(obj.matlab_unittest_test_obj);
+
+In test_matlab_unittest_test_wrapper_suite>test_matlab_unittest_test_test_suite_basics (line 42)
+        report=run(mox_test,report);
+
+In MOxUnitFunctionHandleTestCase/run (line 30)
+                obj.function_handle();
+
+In MOxUnitTestSuite/run (line 53)
+        result=run(test_case, result);
+
+In MOxUnitTestSuite/run (line 53)
+        result=run(test_case, result);
+
+In moxunit_runtests>@()run(suite,test_report,params.partition_index,params.partition_count) (line 149)
+    f_handle=@()run(suite, test_report,...
+
+In moxunit_runtests>run_all_tests (line 207)
+        test_report=f_handle();
+
+In moxunit_runtests (line 102)
+    test_report=run_all_tests(suite, test_report, params);
+} 
+{Operation terminated by user during matlab.unittest.internal.createConditionallyKeptFolderEnvironment (line 7)
+
+
+In matlab.unittest.internal.TestRunStrategy/createArtifactsStorageFolder (line 38)
+            cleanupObj = createConditionallyKeptFolderEnvironment(artifactsFolder);
+
+In matlab.unittest.TestRunner/runTestSuite (line 966)
+            env = runner.TestRunStrategy.createArtifactsStorageFolder(runner.DiagnosticData.ArtifactsStorageFolder); %#ok<NASGU>
+
+In matlab.unittest.TestRunner/invokeTestContentOperatorMethod_ (line 946)
+            [varargout{1:nargout}] = method(runner, pluginData);
+
+In matlab.unittest.plugins.TestRunnerPlugin/runTestSuite (line 265)
+            iter.CurrentOperator.invokeTestContentOperatorMethod_(@runTestSuite, pluginData, iter);
+
+In matlab.unittest.plugins.DiagnosticsRecordingPlugin/runTestSuite (line 201)
+            plugin.runTestSuite@matlab.unittest.plugins.TestRunnerPlugin(pluginData);
+
+In matlab.unittest.plugins.TestRunnerPlugin/invokeTestContentOperatorMethod_ (line 760)
+                [varargout{1:nargout}] = method(plugin, pluginData);
+
+In matlab.unittest.TestRunner/evaluateMethodOnPlugins (line 437)
+            [varargout{1:nargout}] = iter.CurrentOperator.invokeTestContentOperatorMethod_(method, pluginData, iter);
+
+In matlab.unittest.TestRunner/evaluateMethodOnPluginsFromMethodName (line 425)
+            runner.evaluateMethodOnPlugins(str2func(method),pluginData);
+
+In matlab.unittest.internal.SerialTestRunStrategy/runTestSuite (line 30)
+            runner.evaluateMethodOnPluginsFromMethodName('runTestSuite', pluginData);
+
+In matlab.unittest.internal.SerialTestRunStrategy/runSession (line 15)
+            strategy.runTestSuite(runner,testSuiteRunPluginData);
+
+In matlab.unittest.TestRunner/runSession (line 958)
+            runner.TestRunStrategy.runSession(runner,pluginData);
+
+In matlab.unittest.TestRunner/invokeTestContentOperatorMethod_ (line 946)
+            [varargout{1:nargout}] = method(runner, pluginData);
+
+In matlab.unittest.TestRunner/evaluateMethodOnPlugins (line 437)
+            [varargout{1:nargout}] = iter.CurrentOperator.invokeTestContentOperatorMethod_(method, pluginData, iter);
+
+In matlab.unittest.TestRunner/evaluateMethodOnPluginsFromMethodName (line 425)
+            runner.evaluateMethodOnPlugins(str2func(method),pluginData);
+
+In matlab.unittest.TestRunner/doRunWithFcn (line 408)
+            runner.evaluateMethodOnPluginsFromMethodName(runFcn,pluginData);
+
+In matlab.unittest.TestRunner/run (line 296)
+            result = doRunWithFcn(runner,'runSession', pluginData);
+
+In MOxUnitMatlabUnitWrapperTestCase/run (line 23)
+        result=runner.run(obj.matlab_unittest_test_obj);
+
+In test_matlab_unittest_test_wrapper_suite>test_matlab_unittest_test_test_suite_basics (line 42)
+        report=run(mox_test,report);
+
+In MOxUnitFunctionHandleTestCase/run (line 30)
+                obj.function_handle();
+
+In MOxUnitTestSuite/run (line 53)
+        result=run(test_case, result);
+
+In MOxUnitTestSuite/run (line 53)
+        result=run(test_case, result);
+
+In moxunit_runtests>@()run(suite,test_report,params.partition_index,params.partition_count) (line 149)
+    f_handle=@()run(suite, test_report,...
+
+In moxunit_runtests>run_all_tests (line 207)
+        test_report=f_handle();
+
+In moxunit_runtests (line 102)
+    test_report=run_all_tests(suite, test_report, params);
+} 
+Elapsed time is 0.009632 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+03-Apr-2021 00:56:15
+Elapsed time is 0.010039 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+03-Apr-2021 00:57:47
+Elapsed time is 0.009659 seconds.
+suite: 113 tests
+..............................Assertion passed.
+Assertion passed.
+Assertion passed.
+.Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+Assertion passed.
+.............................
+.....................................................
+--------------------------------------------------
+
+OK (passed=113)
+03-Apr-2021 00:58:22
